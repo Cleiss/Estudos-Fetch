@@ -8,7 +8,6 @@ const headers = {
 const init = {
     method:'GET',
     headers: headers,
-    
 }
 
 //fetch API
