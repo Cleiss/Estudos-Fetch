@@ -15,13 +15,10 @@ const response = fetch('https://jsonplaceholder.typicode.com/users', init) //peg
                                                                            //init envia dados de cabeçalho/headers
 .then(function (respdados){ //pega os dados da promise
 
-    return respdados.json() //converte os dados para json e retorna outra promise com os dados json
+    return respdados.json() //converte os dados da promise para json e retorna outra promise com os dados json
 })
 .then(function(jsondados){ //trata os dados json da promise
 
-    /*for (const nomes of jsondados) {
-        console.log(nomes)
-    }*/
     console.log(jsondados)
     botao.value = jsondados[7].name
     botao.onclick = function(){
@@ -32,7 +29,11 @@ const response = fetch('https://jsonplaceholder.typicode.com/users', init) //peg
     console.log(e)
 })
 
+
+
 //forma mais simples de fetch API
+//utilizando async/await
+
 /*(async function(){
     
     try{
