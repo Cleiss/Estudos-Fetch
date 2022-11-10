@@ -1,0 +1,20 @@
+.campos {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.botoes {
+    margin-top: 70px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mensagem {
+    border: 1px solid;
+    margin-top: 70px;
+    width: 300px;
+}
