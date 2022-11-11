@@ -4,7 +4,15 @@
       "nome": "cleitin",
       "login": "cleis",
       "senha": "123",
-      "cpf": "456",
+      "cpf": "456789",
       "idade": "34"
+    },
+    {
+      "id": 2,
+      "nome": "lilian",
+      "login": "lilica",
+      "senha": "123",
+      "cpf": "456789",
+      "idade": "67"
     }]
   }
